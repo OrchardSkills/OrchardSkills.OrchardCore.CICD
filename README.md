@@ -189,7 +189,7 @@ After a successful build deployment your site is ready.
 
 ![](https://user-images.githubusercontent.com/59172485/89642476-2d3b8180-d871-11ea-80d2-89f922919135.png)
 
-After the build and deployment process is successful you can visit the Azure Website URL at: https://orchardskills.azurewebsites.net/ 
+After the build and deployment process is successful you can visit the Azure Website URL at: https://[Your-Site-Here].azurewebsites.net/ 
 
 ![](https://user-images.githubusercontent.com/59172485/89642478-2d3b8180-d871-11ea-8d89-6573ac9c1df5.png)
 
@@ -202,9 +202,9 @@ Select the desired App Service Plan. Select Dev/Test B1 and select apply.
 ![](https://user-images.githubusercontent.com/59172485/89642480-2dd41800-d871-11ea-8ee0-47cc8d560c45.png)
 
 Go to the Azure Dev Ops
-https://dev.azure.com/OrchardSkills/
+https://dev.azure.com/[Your-Site-Here]/
 
-Select the OrcardSkills project by clicking on the OrchardSkills link.
+Select the [Your-Site-Here] project by clicking on the link.
 
 ![](https://user-images.githubusercontent.com/59172485/89642483-2dd41800-d871-11ea-89c6-7ceb6c137fa9.png)
 
@@ -212,7 +212,7 @@ Click on "Pipelines" located on the left side menu.
 
 ![](https://user-images.githubusercontent.com/59172485/89642484-2dd41800-d871-11ea-9cb9-6d7be3e078d0.png)
 
-Click on "OrchardSkills - CI" pipeline.
+Click on "[Your-Site-Here] - CI" pipeline.
 
 ![](https://user-images.githubusercontent.com/59172485/89642485-2e6cae80-d871-11ea-90a2-4e1d8752cefe.png)
 
@@ -220,7 +220,7 @@ Click on the "Edit" button.
 
 ![](https://user-images.githubusercontent.com/59172485/89642486-2e6cae80-d871-11ea-80b0-8462d62d2372.png)
 
-These are the build pipeline steps to compile and publish the artifact to the Releases (OrchardSkills - CD).
+These are the build pipeline steps to compile and publish the artifact to the Releases ([Your-Site-Here] - CD).
 
 ![](https://user-images.githubusercontent.com/59172485/89642487-2e6cae80-d871-11ea-8a7d-c25c2bc96668.png)
 
@@ -297,7 +297,7 @@ Remove the "Azure Deployment Create Azure App Service" by right clicking on the 
 ![](https://user-images.githubusercontent.com/59172485/89642509-33316280-d871-11ea-9271-03de72851bbc.png)
 
 Click on the Package or folder (File path to the package or a folder containing app service contents) The path should be as follows:
-$(System.DefaultWorkingDirectory)/Drop/drop/OrchardSkills.OrchardCore.OrchardSkills.zip
+$(System.DefaultWorkingDirectory)/Drop/drop/MyOrchardCMS.zip
 
 ![](https://user-images.githubusercontent.com/59172485/89642510-33316280-d871-11ea-8120-8cd8251d038d.png)
 
