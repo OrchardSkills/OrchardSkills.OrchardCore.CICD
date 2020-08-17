@@ -352,10 +352,6 @@ Orchard Core is running!
 
 Once you have CICD setup, Any changes to your repository will trigger the build and deployment process.
 
-
-
 # GitHub
-
- 
 
 The complete source code is located [here](https://github.com/OrchardSkills/OrchardSkills.OrchardCore.CICD).
