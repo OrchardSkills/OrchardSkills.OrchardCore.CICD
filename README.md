@@ -2,6 +2,8 @@
 
 Setting up CICD for an Orchard Core CMS Web Application using Azure Dev Ops
 
+## Automating the Build Process
+
 ## YouTube Video
 
 [![OrchardSkillsYouTubeThumbNailCICD](https://user-images.githubusercontent.com/59172485/90349375-dcf1bb80-dff6-11ea-96aa-c588416b846d.png)](https://youtu.be/8cQLcDFJvvA)
